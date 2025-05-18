@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite</title>
+    <link rel="icon" href="convite-de-casamento.png">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            
+            min-height: 100vh; /* Garante que a borda cubra toda a altura da viewport */
+            margin: 30px;
+            background-image: url(fundo-padrao-abstrato-branco-com-conceito-de-estilo-futurista-e-moderno_7505-2300.avif) ;
+            background-color: rgb(255, 255, 255);
+            background-repeat: repeat;
+            background-size:300px ;
+            
+        }
+
+        #box{
+            max-width: 60%;
+            min-height: 800px;
+            margin: 0 auto;
+            position: relative;
+            border:  solid;
+            border-color:  #bda060af;
+            border-radius: 7px;
+            border-width: 9px;
+        }
+
+
+#mapbox{
+    max-width: 100%;
+    min-height: 350px;
+    margin: 20px;
+}
+
+iframe{
+    border-radius: 10px;
+    border: solid;
+    border-width: 3px;
+    border-color: rgba(0, 0, 0, 0.384);
+    margin-bottom: 60px;
+}
+
+#alianças{
+    display: flex;
+    justify-self: center;
+width: 170px;
+opacity:70%;
+margin-bottom: 100px;
+}
+
+#texto{
+    margin: 10px;
+    text-align: center;
+}
+
+#enfei{
+    width: 175px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 26%;
+    
+}
+
+#enfei2{
+    width: 175px;
+    position: absolute;
+    top: 0;
+    right:  0;
+    opacity: 26%;
+    
+}
+
+h3{
+    
+    color:  rgba(24, 24, 24, 0.678);
+    margin-bottom: 0px;
+    font-family: "Lekton";
+    font-weight: 700;
+}
+
+#local{
+    font-size: 11px;
+   }
+
+p{
+    color:  rgba(24, 24, 24, 0.678);
+    
+    font-family: "Lekton";
+    font-size: 15px;
+    font-weight: 700;
+}
+
+@media (max-width: 600px) {
+    #aliança{
+        width: 100px;
+    }
+
+    #box{
+        max-width: 90%;
+        border-width: 9px;
+    }
+
+    #local{
+    font-size: 9px;
+   }
+
+    #enfei, #enfei2{
+    width: 110px;
+   }
+
+   #florbaixo, #florbaixo2{
+    width: 110px;
+   }
+}
+
+#eu{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: flex-end;
+    align-items: flex-end;
+    justify-items: flex-end;
+    font-size: 10px;
+}
+
+#vt{
+    margin-bottom:70px ;
+    text-align: center;
+}
+
+#florbaixo{
+     transform:rotate(625deg);
+     width: 110px;
+    position: absolute;
+    bottom: 0;
+    left:  0;
+    opacity: 29%;
+}
+
+#florbaixo2{
+     transform:rotate(180deg);
+     width: 110px;
+    position: absolute;
+    bottom: 0;
+    right:  0;
+    opacity: 29%;
+}
+
+#texto{
+    margin-bottom:40px ;
+}
+
+#lista{
+    text-align: center;
+     color:  rgba(24, 24, 24, 0.678);
+    font-family: "Lekton";
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+#presente{
+    text-align: center;
+    margin: 0;
+    font-size: 15px
+}
+
+#shoppe{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 18px;
+    place-items: center;
+}
+
+@media(max-width: 600px){
+    .link{
+    max-height:200px ;
+    }
+
+        #info{
+        margin-bottom:50px;
+    }
+
+    #button{
+        font-size: 10px;
+        padding: 3px;
+    }
+
+    #lista{
+        font-size: 17px;
+    }
+
+    #presente{
+        font-size: 11px;
+    }
+
+    #texto{
+        font-size: 12px;
+    }
+
+    #box{border-width: 8px;
+    
+    }
+}
+
+.link{
+    
+    display: flex;
+     width: 80%;
+     height: 450px;
+     background-color: rgb(238, 238, 238);
+     border-radius: 10px;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    text-align: center
+
+}
+
+.img{
+border-radius: 10px;
+}
+
+
+#button{
+    text-decoration: none;
+    margin: 0;
+    background-color: #e4c78700; 
+    padding: 4px;
+    border-radius:20px;
+    border: solid #9e803e9c;
+    border-width:2px ;
+    font-family: "lekton";
+    font-weight: 600;
+    color: #9e803e9c;
+    text-shadow: 2px 2px 4px rgba(177, 52, 52, 0.13);
+    margin-bottom: 100px;
+}
+
+#button:hover{
+    background-color: #be912eea;
+     padding: 3px;
+}
+
+#info{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#voltar{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+
+   </style>
+</head>
+<body>
+
+    <div id="box">
+        <img id="enfei" src="frô.png">
+        <img id="enfei2" src="florcima.png">
+            <img id="alianças" src="duas_alianças_de_ouro_de_casamento_com_uma_estrela_de_Davi-removebg-preview.png">
+
+            
+        <div id="mapbox">
+            <h3>Localização:</h3>
+            <P id="local">17/8/2025 as horas em; R. Cel. Francisco Nunes, 51 - Mutua, São Gonçalo - RJ, 24460-370</P>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.7100496836606!2d-43.04504132581968!3d-22.81320533453102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x999bd4c0ff1719%3A0xad365392a5f41413!2sSinagoga%20Beit%20Miklat!5e0!3m2!1spt-PT!2sbr!4v1742844368800!5m2!1spt-PT!2sbr" width="100%" height="300" style="" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <Img id="florbaixo" src="frô.png" >
+                <Img id="florbaixo2" src="frô.png" >
+        </div>
+
+            <h2 id="lista">Lista de presentes</h2>
+            <P id="presente" style="margin-left: 5px; margin-right:5px ;" >Dê a esse maravilhoso casal um presente de casamento!</P>
+
+              <hr style="width: 200px; margin-bottom: 30px;">
+              
+        <div id="info"><a id="button"  target="_blank" href="https://www.amazon.com.br/hz/wishlist/ls/37JEDQCDYE5QU?ref_=wl_share">Lista de presentes ➟</a></div>
+        <div id="voltar"><a id="button" href="index.html">Voltar ➟</a></div>
+
+
+           <!-- <div id="shoppe">
+                <div class="link">
+                    <img class="img" width="70%" src="https://down-br.img.susercontent.com/file/sg-11134201-7ren6-m8npl9kxudxx88.webp">
+                    <a href="" style="margin: 8px; font-size: 14px;">Forninho elétrico ➟</a>
+                </div>
+
+                <div class="link">
+                    <img class="img" width="50%" src="https://static.itdg.com.br/images/auto-auto/ffa217cd0cabbf0f31ad9ef42fb18ffb/81naswftdzl.-ac-sl1500-680x1024.jpg">
+                    <a style="margin: 8px; font-size: 14px;" href=""> AirFryer ➟ </a>
+                </div>
+
+                <div class="link">
+                    <img class="img" src="">
+                    <a href=""></a>
+                </div>
+                   
+
+            </div>  -->
+             <P id="eu" style=" color: rgba(87, 87, 87, 0.815);">feito por por: Ianá Theml</P>
+    </div>
+</body>
+</html>

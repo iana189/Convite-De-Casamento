@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite</title>
+    <link rel="icon" href="convite-de-casamento.png">
+    
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Satisfy&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+
+<style>
+    
+
+
+body {
+  min-height: 100vh; /* Garante que a borda cubra toda a altura da viewport */
+            margin: 30px;
+            margin-top: 10px;
+            background-image: url(fundo-padrao-abstrato-branco-com-conceito-de-estilo-futurista-e-moderno_7505-2300.avif) ;
+            background-color: rgb(255, 255, 255);
+            background-repeat: repeat;
+            background-size:300px ;
+}
+
+
+
+
+/* Opcional: Ajuste para dispositivos móveis */
+@media (max-width: 768px) {
+    body {
+        margin: 30px;
+    }
+
+    .convite{
+        font-size: 32px;
+    }
+
+    #data, #data1{
+        font-size: 90px;
+    }
+
+   #box{
+    max-width: 90%;
+   } 
+
+}
+
+.enfeite{
+display: flex;
+width: 70%;
+opacity: 60%;  
+margin: 0;
+}
+
+.estrela{
+    width: 300px;
+    display: flex;
+    justify-self: center;
+    margin-bottom: 22px;
+   
+}
+
+#convite{
+    font-family: "Great Vibes";
+    color:rgba(158, 79, 112, 0.678);
+    text-align: center;
+    font-size: 32px;
+    text-shadow: 2px 2px 4px rgba(155, 40, 40, 0.5);
+    margin: 0px;
+    
+}
+
+#E{
+    color: rgba(128, 128, 128, 0.473);
+    text-align: center;
+    font-size: 26px;
+    margin: 0px;
+}
+
+#noivos{
+    font-family: "Great Vibes";
+    color: rgb(122, 57, 83);
+    text-align: center;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px rgba(177, 52, 52, 0.5);
+    margin-top: 10px;
+}
+
+.flores{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    opacity: 55%;  
+}
+
+#info{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#data{
+    color: rgba(24, 24, 24, 0.678);
+    font-size:9px ;
+    font-family: "Lekton";
+    font-weight: 600;
+    text-align: center;
+    margin-top: 18px;
+}
+#data1{
+      color: rgba(24, 24, 24, 0.678);
+    font-size:9.5px ;
+    font-family: "Lekton";
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0px;
+    
+
+}
+
+#button{
+    text-decoration: none;
+    margin: 0;
+    background-color: #e4c78700; 
+    padding: 4px;
+    border-radius:20px;
+    border: solid #9e803e9c;
+    border-width:2px ;
+    font-family: "lekton";
+    font-weight: 600;
+    color: #9e803e9c;
+    text-shadow: 2px 2px 4px rgba(177, 52, 52, 0.13);
+    
+}
+
+#eu{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: flex-end;
+    align-items: flex-end;
+    justify-items: flex-end;
+    font-size: 1px;
+}
+
+
+#button:hover{
+    background-color: #be912eea;
+     padding: 3px;
+}
+
+
+@media (max-width: 600px){
+     body{
+        margin: 30px;
+     }
+
+     
+    .convite{
+        
+        font-size: 32px;
+    }
+
+    .estrela{
+        width: 160px;
+    }
+
+     #box{
+        max-width: 90%;
+       border-width: 9px;
+       border-radius: 7px;
+        
+    }
+
+    #info{
+        margin-bottom:50px;
+    }
+
+    #button{
+        font-size: 10px;
+        padding: 3px;
+    }
+
+    #eu{
+        font-size: 9px;
+    }
+}
+
+     #box{
+            max-width: 90%;
+            min-height: 800px;
+            margin: 0 auto;
+            position: relative;
+            border: 11px solid;
+            border-color:  #bda060af;
+            border-radius: 7px;
+            border-width: 9px;
+        }
+</style>
+</head>
+<body>
+    <div id="box">
+        <img class="estrela" src="estrela_de_Davi_dourada-removebg-preview.png">
+ 
+           <p id="convite"> Chayah - חייה<br></p>
+           <P id="E">&</P>
+           <p id="convite">Gedaliahu -  גדליהו</p>
+              <P id="data" style="margin-bottom: 0;">Te convidam para a cerimônia de seu casamento</P>
+               <P id="data1">17/08/2025 às: horas</P>
+           <P id="noivos"></P>
+        <div id="info"><a id="button" href="info.html">Presentes e localização ➟</a></div>
+        <div class="flores">
+            <img class="enfeite" src="Design sem nome (2).png">
+
+        </div>
+
+                <P id="eu" style="font-size: 9px; color: rgba(87, 87, 87, 0.815);">feito por por: Ianá Theml</P>
+
+   </div>
+</body>
+</html> 
